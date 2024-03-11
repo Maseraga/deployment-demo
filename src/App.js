@@ -1,13 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import HeadlineCards from './components/HeadlineCards';
+import Food from './components/Food';
+import Category from './components/Category';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-       Maseraga Paulina Seleka
-      </header>
+      <Navbar />
+      <Hero />
+      <HeadlineCards />
+      <Food />
+      <Category />
     </div>
   );
 }
